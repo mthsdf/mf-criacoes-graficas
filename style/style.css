@@ -1,0 +1,93 @@
+:root {
+	--default-size: 1.05em;
+}
+
+.space-grotesk-<uniquifier> {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.box {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
+
+.conteudo {
+	flex: 1;
+	margin-right: 32px;
+}
+
+@media all and (max-width: 600px) {
+	.conteudo {
+		flex: 1 100%;
+	}
+	
+}
+
+
+body {
+
+	max-width: 960px;
+	padding-top: 3%;
+	padding-left: 3%;
+	font-size: var(--default-size);
+	line-height: 1.6em;
+	font-family: "Space Grotesk", sans-serif;
+	font-weight: 400;
+	font-style: normal;	
+		}
+		
+body::selection {
+	color: white;
+	background-color: blue;
+}
+section {
+	margin-bottom: 64px;
+}
+
+p {
+	display: inline;
+}	
+
+h2 {
+	font-weight: 700;
+	color: blue;
+	font-size: var(--default-size);
+	display: inline;
+}
+
+h3 {
+	font-weight: 400;
+	color: blue;
+	font-size: var(--default-size);
+}
+
+h4 {
+	font-weight: 400;
+	font-size: 0.9em;
+	display: inline;
+}
+
+
+a {
+	color: blue;
+}
+	
+a:hover {
+	background-color: blue;
+	color: white;
+
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+	
+li {
+	list-style-type: none;
+	padding: 0;
+}
